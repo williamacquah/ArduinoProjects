@@ -1,0 +1,97 @@
+int red=13;
+int blue=12;
+int green=11;
+int white=10;
+int longW=1000;
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(red, OUTPUT);
+  pinMode(blue, OUTPUT);
+  pinMode(green, OUTPUT);
+  pinMode(white, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(white, LOW);
+  delay(longW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(white, HIGH);
+  delay(longW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, HIGH);
+  digitalWrite(white, LOW);
+  delay(longW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, HIGH);
+  digitalWrite(white, HIGH);
+  delay(longW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, LOW);
+  digitalWrite(white, LOW);
+  delay(longW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, LOW);
+  digitalWrite(white, HIGH);
+  delay(longW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(white, LOW);
+  delay(longW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(white, HIGH);
+  delay(longW);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(white, LOW);
+  delay(longW);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
+  digitalWrite(white, HIGH);
+  delay(longW);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, HIGH);
+  digitalWrite(white, LOW);
+  delay(longW);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, HIGH);
+  digitalWrite(white, HIGH);
+  delay(longW);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, LOW);
+  digitalWrite(white, LOW);
+  delay(longW);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, LOW);
+  digitalWrite(white, HIGH);
+  delay(longW);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(white, LOW);
+  delay(longW);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, HIGH);
+  digitalWrite(white, HIGH);
+  delay(longW);
+}
